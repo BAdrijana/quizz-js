@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+    <nav class="nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html #html">HTML5/CSS3</a></li>
+            <li><a href="index.html #js">JavaScript & JQ</a></li>
+            <li><a href="quiz.html">Quiz</a></li>
+        </ul>
+        
+            <ul>
+                <li ><a class="button dropdown" href="#">LogIn
+                    <i class="fas fa-caret-down"></i>
+                </a>
+                <!-- LOG IN POPUP -->
+                    <div class="popup">
+                      <a href="#" class="close-icon dropdown"><i class="fas fa-window-close" style="color: #dce1e2; "></i></a>
+                        <form class="login">
+                            <p><label for="username"> Username </label> <input id="username" name="" type="text" /></p>
+                            <p><label id="password">Password</label> <input name="" type="password" /></p>
+                            <p><input class="submit" name="" type="button" value="Login" /></p>
+                            <a href="" class="forgot" > Forgot your password?</a>
+                        </form>
+                    </div>
+            </li>
+                <li><a href="">SingUp</a></li>
+            </ul>
+        
+    </nav>
+</div>
+
+    <div class="start">
+         <h1>START Quiz!</h1>
+
+        <div class="htmlcss "> HTML/CSS </div>
+        <div class="javascript">JavaScript</div>
+
+ 
+
+    <div class="quizContainer">
+     
+         <a href="#" class="close" > <i class="fas fa-window-close" style="color: #dce1e2; "></i></a>
+         <div class="quiz-wrap">
+            <div class="question"> </div>
+            <ul class="choiceList"> </ul>
+            <div class="quizMessage"></div>
+            <div class="result"></div>
+            <div class="nextButton">Next Question</div> 
+            <div class="nextButton2">Next Question</div> 
+            <!-- and rest button -->
+            <br>
+            </div>
+
+    </div>
+    </div>
+  <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+<script type="text/javascript" src="js.js" ></script>
+</body>
+</html>
